@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <img width={70} height={70} src="./images/logo-social.svg" />
+      <img width={55} height={55} src="./images/logo-social.svg" />
     </header>
   );
 }
