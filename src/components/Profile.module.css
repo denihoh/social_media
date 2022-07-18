@@ -1,0 +1,15 @@
+.content {
+  margin-top: 10px;
+  grid-area: c;
+  background-color: rgb(239, 230, 230);
+}
+.user_info {
+  display: flex;
+}
+.user_info img {
+  width: 200px;
+}
+
+.item {
+  color: darkblue;
+}
