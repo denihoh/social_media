@@ -1,0 +1,24 @@
+.buttons {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+.buttonAdd {
+  margin-right: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: #367399;
+  font-weight: 700;
+  border-color: #367399;
+  cursor: pointer;
+}
+.buttonRemove {
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  color: #367399;
+  font-weight: 700;
+  border-color: #367399;
+  cursor: pointer;
+}

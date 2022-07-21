@@ -2,12 +2,3 @@
   display: grid;
   grid-template-columns: 2fr 10fr;
 }
-.dialog {
-  margin-bottom: 5px;
-}
-.activeDialog {
-  color: darkblue;
-}
-.message {
-  margin-bottom: 5px;
-}

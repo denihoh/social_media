@@ -16,7 +16,7 @@ function Navbar() {
       <div>
         <NavLink
           className={(a) => (a.isActive ? styles.active : styles.item)}
-          to="/dialogs"
+          to="/dialogs/"
         >
           Messages
         </NavLink>

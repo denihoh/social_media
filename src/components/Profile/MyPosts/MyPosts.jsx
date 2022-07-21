@@ -2,19 +2,23 @@ import React from "react";
 import styles from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
-function MyPosts() {
+function MyPosts(props) {
+  let myPosts = props.posts.map((post) => (
+    <Post message={post.message} likesCount={post.likesCount} />
+  ));
   return (
     <div>
-      My posts
+      <h3> My posts</h3>
       <div>
-        <textarea></textarea>
-        <button>Add post</button>
-        <button>Remove</button>
+        <div>
+          <textarea></textarea>
+        </div>
+        <div className={styles.buttons}>
+          <button className={styles.buttonAdd}>Add post</button>
+          <button className={styles.buttonRemove}>Remove</button>
+        </div>
       </div>
-      <div className={styles.posts}>
-        <Post message="It is a nice day" likesCount={15} />
-        <Post message="The weather is fine!" likesCount={20} />
-      </div>
+      <div className={styles.posts}>{myPosts}</div>
     </div>
   );
 }

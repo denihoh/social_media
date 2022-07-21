@@ -1,0 +1,6 @@
+.dialog {
+  margin-bottom: 5px;
+}
+.activeDialog {
+  color: darkblue;
+}

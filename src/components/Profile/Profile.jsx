@@ -1,14 +1,13 @@
 import React from "react";
 import MyPosts from "./MyPosts/MyPosts";
 import styles from "./Profile.module.css";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-function Profile() {
+function Profile(props) {
   return (
     <div>
-      <div>
-        <img width={400} height={300} src="./images/mountains.jpg" />
-      </div>
-      <MyPosts />
+      <ProfileInfo />
+      <MyPosts posts={props.state.posts} />
     </div>
   );
 }
